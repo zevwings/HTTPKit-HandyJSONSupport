@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
   spec.name             = "HTTPKit-HandyJSONSupport.swift"
   spec.module_name      = "HandyJSONSupport"
-  spec.version          = "0.0.6"
+  spec.version          = "1.0.1"
   spec.summary          = "`HandyJSON` support for `HTTPKit`"
   spec.swift_version    = "5.1"
 
@@ -10,11 +10,11 @@ Pod::Spec.new do |spec|
                 HTTPKit decode Data Support - HandyJSON
                    DESC
 
-  spec.homepage     = "https://github.com/zevwings/HTTPKit-SwiftyJSONSupport"
+  spec.homepage     = "https://github.com/zevwings/HTTPKit-HandyJSONSupport"
   spec.license      = "Apache"
   spec.author       = { "zevwings" => "zev.wings@gmail.com" }
   spec.platform     = :ios, "10.0"
-  spec.source       = { :git => "https://github.com/zevwings/HTTPKit-SwiftyJSONSupport.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/zevwings/HTTPKit-HandyJSONSupport.git", :tag => "#{spec.version}" }
   spec.requires_arc = true
   
   spec.default_subspecs = "Core"
