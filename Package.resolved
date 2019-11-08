@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "2cbf59935fbb1f26e352ce4db53f1cf9408d5313",
+          "version": "5.0.0-rc.3"
+        }
+      },
+      {
+        "package": "HandyJSON",
+        "repositoryURL": "https://github.com/alibaba/HandyJSON.git",
+        "state": {
+          "branch": null,
+          "revision": "dfab665e87f5dd56e16273222718ecd04a9a9d70",
+          "version": "5.0.1"
+        }
+      },
+      {
+        "package": "HTTPKit",
+        "repositoryURL": "https://github.com/zevwings/HTTPKit.git",
+        "state": {
+          "branch": null,
+          "revision": "c736cfd6a77e2179229010ca0e556a37d5bc2bad",
+          "version": "0.0.3"
+        }
+      },
+      {
+        "package": "RxSwift",
+        "repositoryURL": "https://github.com/ReactiveX/RxSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "b3e888b4972d9bc76495dd74d30a8c7fad4b9395",
+          "version": "5.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

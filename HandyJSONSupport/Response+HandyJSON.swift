@@ -5,6 +5,7 @@
 //  Copyright © 2019 zevwings. All rights reserved.
 //
 
+import Foundation
 import HandyJSON
 import HTTPKit
 
