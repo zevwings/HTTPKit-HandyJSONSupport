@@ -10,6 +10,30 @@
 		4D5E80B0237500CD000DE9EC /* HandyJSONSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E80A6237500CD000DE9EC /* HandyJSONSupport.framework */; };
 		4D5E80B5237500CD000DE9EC /* HandyJSONSupportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E80B4237500CD000DE9EC /* HandyJSONSupportTests.swift */; };
 		4D5E80B7237500CD000DE9EC /* HandyJSONSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5E80A9237500CD000DE9EC /* HandyJSONSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D5E80CE23750145000DE9EC /* RxHandyJSONSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E80C523750144000DE9EC /* RxHandyJSONSupport.framework */; };
+		4D5E80D323750145000DE9EC /* RxHandyJSONSupportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E80D223750145000DE9EC /* RxHandyJSONSupportTests.swift */; };
+		4D5E80D523750145000DE9EC /* RxHandyJSONSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5E80C723750144000DE9EC /* RxHandyJSONSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D5E80DD23750162000DE9EC /* Response+HandyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E80DC23750162000DE9EC /* Response+HandyJSON.swift */; };
+		4D5E80E02375016A000DE9EC /* Single+HandyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E80DE2375016A000DE9EC /* Single+HandyJSON.swift */; };
+		4D5E80E12375016A000DE9EC /* Observable+HandyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E80DF2375016A000DE9EC /* Observable+HandyJSON.swift */; };
+		4D5E812E23750371000DE9EC /* HTTPKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812923750371000DE9EC /* HTTPKit.framework */; };
+		4D5E812F23750371000DE9EC /* HTTPKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812923750371000DE9EC /* HTTPKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D5E813223750371000DE9EC /* HandyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812B23750371000DE9EC /* HandyJSON.framework */; };
+		4D5E813323750371000DE9EC /* HandyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812B23750371000DE9EC /* HandyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D5E813623750371000DE9EC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812D23750371000DE9EC /* Alamofire.framework */; };
+		4D5E813723750371000DE9EC /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812D23750371000DE9EC /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D5E813923750394000DE9EC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812D23750371000DE9EC /* Alamofire.framework */; };
+		4D5E813A23750394000DE9EC /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812D23750371000DE9EC /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D5E813B23750394000DE9EC /* HandyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812B23750371000DE9EC /* HandyJSON.framework */; };
+		4D5E813C23750394000DE9EC /* HandyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812B23750371000DE9EC /* HandyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D5E813D23750394000DE9EC /* HTTPKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812923750371000DE9EC /* HTTPKit.framework */; };
+		4D5E813E23750394000DE9EC /* HTTPKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812923750371000DE9EC /* HTTPKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D5E813F23750394000DE9EC /* RxSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812A23750371000DE9EC /* RxSupport.framework */; };
+		4D5E814023750394000DE9EC /* RxSupport.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812A23750371000DE9EC /* RxSupport.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D5E814123750394000DE9EC /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812C23750371000DE9EC /* RxSwift.framework */; };
+		4D5E814223750394000DE9EC /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812C23750371000DE9EC /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D5E8144237503B0000DE9EC /* HandyJSONSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E80A6237500CD000DE9EC /* HandyJSONSupport.framework */; };
+		4D5E8145237503B0000DE9EC /* HandyJSONSupport.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E80A6237500CD000DE9EC /* HandyJSONSupport.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,7 +44,53 @@
 			remoteGlobalIDString = 4D5E80A5237500CD000DE9EC;
 			remoteInfo = HandyJSONSupport;
 		};
+		4D5E80CF23750145000DE9EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D5E809D237500CD000DE9EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D5E80C423750144000DE9EC;
+			remoteInfo = RxHandyJSONSupport;
+		};
+		4D5E8146237503B0000DE9EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D5E809D237500CD000DE9EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D5E80A5237500CD000DE9EC;
+			remoteInfo = HandyJSONSupport;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D5E813823750371000DE9EC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4D5E813323750371000DE9EC /* HandyJSON.framework in Embed Frameworks */,
+				4D5E813723750371000DE9EC /* Alamofire.framework in Embed Frameworks */,
+				4D5E812F23750371000DE9EC /* HTTPKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5E814323750394000DE9EC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4D5E814223750394000DE9EC /* RxSwift.framework in Embed Frameworks */,
+				4D5E813E23750394000DE9EC /* HTTPKit.framework in Embed Frameworks */,
+				4D5E813A23750394000DE9EC /* Alamofire.framework in Embed Frameworks */,
+				4D5E814023750394000DE9EC /* RxSupport.framework in Embed Frameworks */,
+				4D5E813C23750394000DE9EC /* HandyJSON.framework in Embed Frameworks */,
+				4D5E8145237503B0000DE9EC /* HandyJSONSupport.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4D5E80A6237500CD000DE9EC /* HandyJSONSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HandyJSONSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +99,20 @@
 		4D5E80AF237500CD000DE9EC /* HandyJSONSupportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandyJSONSupportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5E80B4237500CD000DE9EC /* HandyJSONSupportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandyJSONSupportTests.swift; sourceTree = "<group>"; };
 		4D5E80B6237500CD000DE9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5E80C523750144000DE9EC /* RxHandyJSONSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxHandyJSONSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5E80C723750144000DE9EC /* RxHandyJSONSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxHandyJSONSupport.h; sourceTree = "<group>"; };
+		4D5E80C823750144000DE9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5E80CD23750145000DE9EC /* RxHandyJSONSupportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxHandyJSONSupportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5E80D223750145000DE9EC /* RxHandyJSONSupportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxHandyJSONSupportTests.swift; sourceTree = "<group>"; };
+		4D5E80D423750145000DE9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D5E80DC23750162000DE9EC /* Response+HandyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+HandyJSON.swift"; sourceTree = "<group>"; };
+		4D5E80DE2375016A000DE9EC /* Single+HandyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Single+HandyJSON.swift"; sourceTree = "<group>"; };
+		4D5E80DF2375016A000DE9EC /* Observable+HandyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+HandyJSON.swift"; sourceTree = "<group>"; };
+		4D5E812923750371000DE9EC /* HTTPKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HTTPKit.framework; path = Carthage/Build/iOS/HTTPKit.framework; sourceTree = "<group>"; };
+		4D5E812A23750371000DE9EC /* RxSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSupport.framework; path = Carthage/Build/iOS/RxSupport.framework; sourceTree = "<group>"; };
+		4D5E812B23750371000DE9EC /* HandyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HandyJSON.framework; path = Carthage/Build/iOS/HandyJSON.framework; sourceTree = "<group>"; };
+		4D5E812C23750371000DE9EC /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		4D5E812D23750371000DE9EC /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +120,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D5E813223750371000DE9EC /* HandyJSON.framework in Frameworks */,
+				4D5E813623750371000DE9EC /* Alamofire.framework in Frameworks */,
+				4D5E812E23750371000DE9EC /* HTTPKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +134,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D5E80C223750144000DE9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5E814123750394000DE9EC /* RxSwift.framework in Frameworks */,
+				4D5E813D23750394000DE9EC /* HTTPKit.framework in Frameworks */,
+				4D5E813923750394000DE9EC /* Alamofire.framework in Frameworks */,
+				4D5E813F23750394000DE9EC /* RxSupport.framework in Frameworks */,
+				4D5E813B23750394000DE9EC /* HandyJSON.framework in Frameworks */,
+				4D5E8144237503B0000DE9EC /* HandyJSONSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5E80CA23750145000DE9EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5E80CE23750145000DE9EC /* RxHandyJSONSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,7 +163,10 @@
 			children = (
 				4D5E80A8237500CD000DE9EC /* HandyJSONSupport */,
 				4D5E80B3237500CD000DE9EC /* HandyJSONSupportTests */,
+				4D5E80C623750144000DE9EC /* RxHandyJSONSupport */,
+				4D5E80D123750145000DE9EC /* RxHandyJSONSupportTests */,
 				4D5E80A7237500CD000DE9EC /* Products */,
+				4D5E812823750371000DE9EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +175,8 @@
 			children = (
 				4D5E80A6237500CD000DE9EC /* HandyJSONSupport.framework */,
 				4D5E80AF237500CD000DE9EC /* HandyJSONSupportTests.xctest */,
+				4D5E80C523750144000DE9EC /* RxHandyJSONSupport.framework */,
+				4D5E80CD23750145000DE9EC /* RxHandyJSONSupportTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +184,7 @@
 		4D5E80A8237500CD000DE9EC /* HandyJSONSupport */ = {
 			isa = PBXGroup;
 			children = (
+				4D5E80DC23750162000DE9EC /* Response+HandyJSON.swift */,
 				4D5E80A9237500CD000DE9EC /* HandyJSONSupport.h */,
 				4D5E80AA237500CD000DE9EC /* Info.plist */,
 			);
@@ -86,6 +200,38 @@
 			path = HandyJSONSupportTests;
 			sourceTree = "<group>";
 		};
+		4D5E80C623750144000DE9EC /* RxHandyJSONSupport */ = {
+			isa = PBXGroup;
+			children = (
+				4D5E80DF2375016A000DE9EC /* Observable+HandyJSON.swift */,
+				4D5E80DE2375016A000DE9EC /* Single+HandyJSON.swift */,
+				4D5E80C723750144000DE9EC /* RxHandyJSONSupport.h */,
+				4D5E80C823750144000DE9EC /* Info.plist */,
+			);
+			path = RxHandyJSONSupport;
+			sourceTree = "<group>";
+		};
+		4D5E80D123750145000DE9EC /* RxHandyJSONSupportTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D5E80D223750145000DE9EC /* RxHandyJSONSupportTests.swift */,
+				4D5E80D423750145000DE9EC /* Info.plist */,
+			);
+			path = RxHandyJSONSupportTests;
+			sourceTree = "<group>";
+		};
+		4D5E812823750371000DE9EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D5E812D23750371000DE9EC /* Alamofire.framework */,
+				4D5E812B23750371000DE9EC /* HandyJSON.framework */,
+				4D5E812923750371000DE9EC /* HTTPKit.framework */,
+				4D5E812A23750371000DE9EC /* RxSupport.framework */,
+				4D5E812C23750371000DE9EC /* RxSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -94,6 +240,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D5E80B7237500CD000DE9EC /* HandyJSONSupport.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5E80C023750144000DE9EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5E80D523750145000DE9EC /* RxHandyJSONSupport.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +262,7 @@
 				4D5E80A2237500CD000DE9EC /* Sources */,
 				4D5E80A3237500CD000DE9EC /* Frameworks */,
 				4D5E80A4237500CD000DE9EC /* Resources */,
+				4D5E813823750371000DE9EC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,6 +291,44 @@
 			productReference = 4D5E80AF237500CD000DE9EC /* HandyJSONSupportTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		4D5E80C423750144000DE9EC /* RxHandyJSONSupport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5E80D623750145000DE9EC /* Build configuration list for PBXNativeTarget "RxHandyJSONSupport" */;
+			buildPhases = (
+				4D5E80C023750144000DE9EC /* Headers */,
+				4D5E80C123750144000DE9EC /* Sources */,
+				4D5E80C223750144000DE9EC /* Frameworks */,
+				4D5E80C323750144000DE9EC /* Resources */,
+				4D5E814323750394000DE9EC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D5E8147237503B0000DE9EC /* PBXTargetDependency */,
+			);
+			name = RxHandyJSONSupport;
+			productName = RxHandyJSONSupport;
+			productReference = 4D5E80C523750144000DE9EC /* RxHandyJSONSupport.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D5E80CC23750145000DE9EC /* RxHandyJSONSupportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D5E80D923750145000DE9EC /* Build configuration list for PBXNativeTarget "RxHandyJSONSupportTests" */;
+			buildPhases = (
+				4D5E80C923750145000DE9EC /* Sources */,
+				4D5E80CA23750145000DE9EC /* Frameworks */,
+				4D5E80CB23750145000DE9EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D5E80D023750145000DE9EC /* PBXTargetDependency */,
+			);
+			name = RxHandyJSONSupportTests;
+			productName = RxHandyJSONSupportTests;
+			productReference = 4D5E80CD23750145000DE9EC /* RxHandyJSONSupportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,8 +341,16 @@
 				TargetAttributes = {
 					4D5E80A5237500CD000DE9EC = {
 						CreatedOnToolsVersion = 11.2;
+						LastSwiftMigration = 1120;
 					};
 					4D5E80AE237500CD000DE9EC = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					4D5E80C423750144000DE9EC = {
+						CreatedOnToolsVersion = 11.2;
+						LastSwiftMigration = 1120;
+					};
+					4D5E80CC23750145000DE9EC = {
 						CreatedOnToolsVersion = 11.2;
 					};
 				};
@@ -169,6 +370,8 @@
 			targets = (
 				4D5E80A5237500CD000DE9EC /* HandyJSONSupport */,
 				4D5E80AE237500CD000DE9EC /* HandyJSONSupportTests */,
+				4D5E80C423750144000DE9EC /* RxHandyJSONSupport */,
+				4D5E80CC23750145000DE9EC /* RxHandyJSONSupportTests */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +391,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D5E80C323750144000DE9EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5E80CB23750145000DE9EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,6 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D5E80DD23750162000DE9EC /* Response+HandyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +424,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4D5E80C123750144000DE9EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5E80E02375016A000DE9EC /* Single+HandyJSON.swift in Sources */,
+				4D5E80E12375016A000DE9EC /* Observable+HandyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D5E80C923750145000DE9EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5E80D323750145000DE9EC /* RxHandyJSONSupportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -213,6 +448,16 @@
 			isa = PBXTargetDependency;
 			target = 4D5E80A5237500CD000DE9EC /* HandyJSONSupport */;
 			targetProxy = 4D5E80B1237500CD000DE9EC /* PBXContainerItemProxy */;
+		};
+		4D5E80D023750145000DE9EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D5E80C423750144000DE9EC /* RxHandyJSONSupport */;
+			targetProxy = 4D5E80CF23750145000DE9EC /* PBXContainerItemProxy */;
+		};
+		4D5E8147237503B0000DE9EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D5E80A5237500CD000DE9EC /* HandyJSONSupport */;
+			targetProxy = 4D5E8146237503B0000DE9EC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -340,13 +585,20 @@
 		4D5E80BB237500CD000DE9EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = HandyJSONSupport/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -355,6 +607,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zevwings.HandyJSONSupport;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,13 +617,20 @@
 		4D5E80BC237500CD000DE9EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = HandyJSONSupport/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,6 +639,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zevwings.HandyJSONSupport;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -386,6 +648,7 @@
 		4D5E80BE237500CD000DE9EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HandyJSONSupportTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,6 +666,7 @@
 		4D5E80BF237500CD000DE9EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = HandyJSONSupportTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -411,6 +675,99 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zevwings.HandyJSONSupportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D5E80D723750145000DE9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = RxHandyJSONSupport/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zevwings.RxHandyJSONSupport;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D5E80D823750145000DE9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = RxHandyJSONSupport/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zevwings.RxHandyJSONSupport;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D5E80DA23750145000DE9EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RxHandyJSONSupportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zevwings.RxHandyJSONSupportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D5E80DB23750145000DE9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RxHandyJSONSupportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zevwings.RxHandyJSONSupportTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -443,6 +800,24 @@
 			buildConfigurations = (
 				4D5E80BE237500CD000DE9EC /* Debug */,
 				4D5E80BF237500CD000DE9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D5E80D623750145000DE9EC /* Build configuration list for PBXNativeTarget "RxHandyJSONSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5E80D723750145000DE9EC /* Debug */,
+				4D5E80D823750145000DE9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D5E80D923750145000DE9EC /* Build configuration list for PBXNativeTarget "RxHandyJSONSupportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D5E80DA23750145000DE9EC /* Debug */,
+				4D5E80DB23750145000DE9EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
