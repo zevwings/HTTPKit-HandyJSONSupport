@@ -17,13 +17,27 @@ public extension Response {
     ) throws -> T {
 
         guard let json = try value(for: keyPath) as? [String: Any] else {
-            throw HTTPError.cast(value: data, targetType: [[String: Any]].self)
+            let error = HTTPError.cast(
+                value: data,
+                targetType: [[String: Any]].self,
+                request: request,
+                response: response
+            )
+            HTTPLogger.failure(.verbose, error: error)
+            throw error
         }
 
         guard let result = T.deserialize(from: json) else {
-            throw HTTPError.cast(value: json, targetType: T.self)
+            let error = HTTPError.cast(
+                value: json,
+                targetType: T.self,
+                request: request,
+                response: response
+            )
+            HTTPLogger.failure(.verbose, error: error)
+            throw error
         }
-
+        HTTPLogger.response(.verbose, targetType: T.self, request: request, extra: result)
         return result
     }
 
@@ -33,21 +47,35 @@ public extension Response {
     ) throws -> [T] {
 
         guard let array = try value(for: keyPath) as? [[String: Any]] else {
-            throw HTTPError.cast(value: data, targetType: [[String: Any]].self)
+            let error = HTTPError.cast(
+                value: data,
+                targetType: [[String: Any]].self,
+                request: request,
+                response: response
+            )
+            HTTPLogger.failure(.verbose, error: error)
+            throw error
         }
 
         guard let result = [T].deserialize(from: array) as? [T] else {
-            throw HTTPError.cast(value: array, targetType: [T].self)
+            let error = HTTPError.cast(
+                value: array,
+                targetType: [T].self,
+                request: request,
+                response: response
+            )
+            HTTPLogger.failure(.verbose, error: error)
+            throw error
         }
-
+        HTTPLogger.response(.verbose, targetType: [T].self, request: request, extra: result)
         return result
     }
 
     func value(for keyPath: String?) throws -> Any? {
         if let keyPath = keyPath {
-            return (try mapJSON() as? NSDictionary)?.value(forKeyPath: keyPath)
+            return (try mapJSON(logVerbose: false) as? NSDictionary)?.value(forKeyPath: keyPath)
         } else {
-            return try mapJSON()
+            return try mapJSON(logVerbose: false)
         }
     }
 }
