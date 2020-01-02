@@ -16,8 +16,6 @@
 		4D5E80DD23750162000DE9EC /* Response+HandyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E80DC23750162000DE9EC /* Response+HandyJSON.swift */; };
 		4D5E80E02375016A000DE9EC /* Single+HandyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E80DE2375016A000DE9EC /* Single+HandyJSON.swift */; };
 		4D5E80E12375016A000DE9EC /* Observable+HandyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E80DF2375016A000DE9EC /* Observable+HandyJSON.swift */; };
-		4D5E812E23750371000DE9EC /* HTTPKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812923750371000DE9EC /* HTTPKit.framework */; };
-		4D5E812F23750371000DE9EC /* HTTPKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812923750371000DE9EC /* HTTPKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4D5E813223750371000DE9EC /* HandyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812B23750371000DE9EC /* HandyJSON.framework */; };
 		4D5E813323750371000DE9EC /* HandyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812B23750371000DE9EC /* HandyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4D5E813623750371000DE9EC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812D23750371000DE9EC /* Alamofire.framework */; };
@@ -34,6 +32,8 @@
 		4D5E814223750394000DE9EC /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812C23750371000DE9EC /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4D5E8144237503B0000DE9EC /* HandyJSONSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E80A6237500CD000DE9EC /* HandyJSONSupport.framework */; };
 		4D5E8145237503B0000DE9EC /* HandyJSONSupport.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E80A6237500CD000DE9EC /* HandyJSONSupport.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D9669FA23BDD54C000BF35C /* HTTPKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812923750371000DE9EC /* HTTPKit.framework */; };
+		4D9669FB23BDD54C000BF35C /* HTTPKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5E812923750371000DE9EC /* HTTPKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,9 +67,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				4D9669FB23BDD54C000BF35C /* HTTPKit.framework in Embed Frameworks */,
 				4D5E813323750371000DE9EC /* HandyJSON.framework in Embed Frameworks */,
 				4D5E813723750371000DE9EC /* Alamofire.framework in Embed Frameworks */,
-				4D5E812F23750371000DE9EC /* HTTPKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,9 +120,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9669FA23BDD54C000BF35C /* HTTPKit.framework in Frameworks */,
 				4D5E813223750371000DE9EC /* HandyJSON.framework in Frameworks */,
 				4D5E813623750371000DE9EC /* Alamofire.framework in Frameworks */,
-				4D5E812E23750371000DE9EC /* HTTPKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

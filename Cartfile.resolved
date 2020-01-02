@@ -1,4 +1,4 @@
-github "Alamofire/Alamofire" "5.0.0-rc.3"
+github "Alamofire/Alamofire" "4.9.1"
 github "ReactiveX/RxSwift" "5.0.1"
 github "alibaba/HandyJSON" "5.0.1"
-github "zevwings/HTTPKit" "0.0.3"
+github "zevwings/HTTPKit" "1.0.3"
