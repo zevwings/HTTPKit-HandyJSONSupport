@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
   spec.name             = "HTTPKit-HandyJSONSupport.swift"
   spec.module_name      = "HandyJSONSupport"
-  spec.version          = "1.0.2"
+  spec.version          = "1.0.3"
   spec.summary          = "`HandyJSON` support for `HTTPKit`"
   spec.swift_version    = "5.1"
 
