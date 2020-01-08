@@ -37,7 +37,7 @@ public extension Response {
             HTTPLogger.failure(.verbose, error: error)
             throw error
         }
-        HTTPLogger.response(.verbose, targetType: T.self, request: request, extra: result)
+        HTTPLogger.transform(.verbose, targetType: T.self, request: request, extra: result)
         return result
     }
 
@@ -67,7 +67,7 @@ public extension Response {
             HTTPLogger.failure(.verbose, error: error)
             throw error
         }
-        HTTPLogger.response(.verbose, targetType: [T].self, request: request, extra: result)
+        HTTPLogger.transform(.verbose, targetType: [T].self, request: request, extra: result)
         return result
     }
 
